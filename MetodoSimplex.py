@@ -30,6 +30,4 @@ print(objetivo)
 matri=np.insert(matri,0, objetivo, 0)
 print("matriz unida")
 print(matri)
-
-
-
+print(np.where(matri == np.amin(matri)))
